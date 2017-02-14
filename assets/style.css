@@ -9,6 +9,8 @@ h1, h2, h3, .name {
 
 .banner {
 	display: flex;
+  min-width: 960px; 
+  margin: 0 auto;
 }
 
 
@@ -27,10 +29,31 @@ h1, h2, h3, .name {
 
 
 .index {
-	display: flex;
+/*	display: flex;
 	color: #c6c6c6;
   margin-left: auto;
-  margin-right: 45px;
+  margin-right: 45px; */
+
+/* ---- From Class --- */
+   /* display: flex; TURNED OFF
+    color: #c6c6c6;   TURNED ON
+    /* margin-left: auto;  TURNED OFF
+    margin-right: 45px; TURNED ON
+    margin-left: 400px; TURNED ON 
+    /* text-align: right; */
+    /* float: left; */
+/* ---- From Class --- */
+
+/* ---- From Class --- */
+    display: flex;
+    color: #c6c6c6;
+    /* margin-left: auto; */
+    /* margin-right: 45px; */
+    margin-left: 400px;
+    /* text-align: right; */
+    /* float: left; */
+    margin-top: 35px
+
 
 }
 
@@ -38,17 +61,23 @@ h1, h2, h3, .name {
 	text-decoration: none;
 	color: #c6c6c6;
 	padding: 0 3px;
-    margin-top: auto;
-
 }
 
+.banner a:hover { 
+    color: gray;
+}
+
+.buttonDiv a:hover {
+  color: black;
+}
 
 .contentCanvas {
-	display: flex;
-	background-color: #EDEDED;
+  display: flex;
+  background-color: #EDEDED;
     border-top: 1px solid #c6c6c6;
     border-bottom: 5px solid #4AAAA5;
     width: 1007px;
+
 }
 
 
@@ -88,7 +117,7 @@ textarea {
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
-    border: 2px solid #ccc;
+    border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
   /*  resize: none;
@@ -112,22 +141,15 @@ textarea {
 }
 
 
-#email {
-    width: 100%;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-}
+ 
 
-#name {
+#name, #email {
     width: 100%;
     padding: 12px 20px;
     box-sizing: border-box;
-    border: 2px solid #ccc;
+    border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 14px;
 }
 }
 
@@ -149,6 +171,7 @@ textarea {
     font-size: 20px;
     padding: 6px 15px;
     text-decoration: none;
+    border-radius: 4px;  
 
 
     /* font-weight: bold; */
@@ -156,7 +179,6 @@ textarea {
     /* margin: 5px 0px 5px 15px; */
     /*height: 13px;
     width: 92px; */
-    /*border-radius: 10px;  */
     /*display: inline-block; */
     /*margin-top: 6px;
     margin-bottom: 4px;
@@ -257,3 +279,13 @@ a:active  {
   color: white;
   } 
   */
+
+  /* -- Index Page Specific CSS -- */
+
+  .bioText {
+    float: left;
+  }
+
+  .aboutMe img {
+    float: left;
+  }
