@@ -89,11 +89,12 @@ h1, h2, h3, .name {
 
 
 
+
 .aboutMe, .portfolio {
     color: #4AAAA5;
     width: 500px;
     border-top: 54px solid #EDEDED;
-    border-bottom: 35px solid #EDEDED;
+    border-bottom: 54px solid #EDEDED;
     /* border-left: 20px solid; */
     /* padding: 2px 20px 20px; */
     margin-left: 73px;
@@ -195,9 +196,7 @@ textarea {
     /* box-shadow: 0px 2px 0px 1px black; */
 }
 
-.portfolio h1 {
-    margin-left: 28px;
-}
+
 
 .fixed-size-container {
     display: flex;
@@ -279,6 +278,26 @@ hr {
     padding-right: 10px;
 }
 
+.runner p {
+    position: absolute;
+    bottom: 10px;
+    /* left: 0; */
+    font: 20px 'sans-serif';
+    color: #fff;
+    background: #069;
+    /* background: -webkit-linear-gradient(left,#069,rgba(0,0,0,0)); */
+    background: -moz-linear-gradient(left,#069,rgba(0,0,0,0));
+    margin: 0;
+    /* width: 100%; */
+    width: 205;
+    height: 32px;
+    padding-left: 15px;
+    padding-top: 7px;
+    box-sizing: border-box;
+    text-align: center;
+    /* justify-content: center; */
+    margin-left: 17px;
+}
 /*.icon1 {
   margin-left: 9px;
 }
@@ -340,9 +359,31 @@ a:active  {
   /* -- Index Page Specific CSS -- */
 
   .bioText {
-    float: left;
-  }
+    margin-left: 30px;
+    line-height: 2;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding-top: 1px;
+}
 
+
+
+  img.facePic, h1 {
+    padding-left: 30px;
+}
+
+  p.text2 {
+  padding-top: 10px;
+
+}
   .aboutMe img {
     float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+}
+
+img
   }
