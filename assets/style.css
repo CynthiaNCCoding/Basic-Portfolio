@@ -4,9 +4,11 @@ html, body {
   margin: 0 0 0 30px;
 }
 
+
 h1, h2, h3, .name {
   font-family: "Georgia", "Times", "Times New Roman", "serif";
 }
+
 
 .banner {
 	display: flex;
@@ -57,20 +59,19 @@ h1, h2, h3, .name {
 
 .contentCanvas {
   display: flex;
-  background-color: #EDEDED;
+  background-image: url("../images/cork-wallet2.png");
   border-top: 1px solid #c6c6c6;
   border-bottom: 5px solid #4AAAA5;
   width: 960px;
   box-sizing: border-box;
   justify-content: space-around;
+  padding: 54px 0;
 }
 
 
 .aboutMe, .portfolio {
   color: #4AAAA5;
   width: 500px;
-  border-top: 54px solid #EDEDED;
-  border-bottom: 54px solid #EDEDED;
   margin-left: 73px;
   background-color: white;
 }
@@ -165,9 +166,8 @@ form {
 .fixed-size {
     position: relative;
     width: 205px;
-    height: 205px;
-    margin: 17px;
-    border: 1px solid black;
+    height: 158px;
+    margin: 17px 15px 0 15px;
 }
 
 
@@ -188,7 +188,6 @@ hr {
 .connect {
     color: #4AAAA5;
     width: 205px;
-    border-top: 54px solid #EDEDED;
     background-color: white;
     height: 154px;
     margin-right: 117px;
@@ -205,6 +204,10 @@ hr {
   width: 52px;
 }
 
+.icons:active {
+    padding: 3px 2px 3px 2px;
+}
+
 
 .socialButtons {
     display: flex;
@@ -217,7 +220,7 @@ hr {
 }
 
 
-.footer {
+footer {
 	clear: both;
 	background-color: #666666;
 	color: white;
@@ -267,7 +270,7 @@ p.text2 {
   text-align: center;
   padding-top: 10px;
   box-sizing: border-box;
-  margin-left: 18px;
-  bottom: 63px;
+  margin-left: 15px;
+  bottom: 45px;
 }
 
