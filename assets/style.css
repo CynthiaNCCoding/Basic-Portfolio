@@ -53,7 +53,9 @@ h1, h2, h3, .name {
 
 
 .buttonDiv a:hover {
-  color: black;
+  color: white;
+  background-color: #6be4de;
+  font-size: 130%;
 }
 
 
@@ -85,12 +87,15 @@ h1, h2, h3, .name {
 input[type=text] {
   width: 100%;
   padding: 12px 20px;
-  margin: 8px 0;
+  margin: 6px 0;
   box-sizing: border-box;
+  color: blue;
 }
 
 
 label {
+  display: inline-block;
+  padding-top: 15px;
   color: #aba9a9;
   font-family: "Arial", 'Helvetica Neue', "Helvetica", "sans-serif";
 }
@@ -99,31 +104,28 @@ label {
 textarea {
   width: 100%;
   height: 150px;
-  padding: 12px 20px;
   box-sizing: border-box;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
+  margin-top: 6px;
+  line-height: 1.3;
 }
 
 
-#name, #email {
-  width: 100%;
-  padding: 12px 20px;
-  box-sizing: border-box;
+#name, #email, #msg {
+  /* width: 100%; */
+  padding: 8px;
+  /* box-sizing: border-box; */
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 14px;
-}
-
-
-#name {
-  background-image: url('searchicon.png');
+  color: #ABA9A9;
 }
 
 
 .contactClass {
-  height: 490px;
+  height: 540px;
 }
 
 
